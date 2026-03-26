@@ -148,7 +148,7 @@ Prototype sistem machine learning ini dibangun menggunakan **Streamlit** untuk m
 ### Link Akses Prototype
 
 Prototype dapat diakses melalui link berikut: https://final-project-dicodingexpert-nwgjjtnmp6saxawepadyjn.streamlit.app/
-
+Link github : https://github.com/JeremyRiyadi/Final-Project-DicodingExpert
 
 ## Conclusion
 Berdasarkan hasil analisis, dapat disimpulkan bahwa faktor yang paling berpengaruh terhadap status mahasiswa (dropout, enrolled, graduate) bukan berasal dari kemampuan akademik awal seperti admission grade, melainkan lebih dipengaruhi oleh performa akademik selama perkuliahan dan kondisi finansial mahasiswa
