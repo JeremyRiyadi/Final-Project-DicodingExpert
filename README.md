@@ -105,11 +105,50 @@ Enrolled: 17.9%
 Link : http://localhost:3000/public/dashboard/67cdbf40-df73-4784-9583-5f6a3e041a24
 
 ## Menjalankan Sistem Machine Learning
-Jelaskan cara menjalankan protoype sistem machine learning yang telah dibuat. Selain itu, sertakan juga link untuk mengakses prototype tersebut.
+Berikut isi bagian **Menjalankan Sistem Machine Learning** yang bisa langsung kamu pakai 👇
 
-```
+---
 
-```
+## Menjalankan Sistem Machine Learning
+
+Prototype sistem machine learning ini dibangun menggunakan **Streamlit** untuk melakukan prediksi status mahasiswa (Dropout, Enrolled, Graduate) berdasarkan input data pengguna
+
+### Cara Menjalankan Prototype
+
+1. **Clone atau download repository proyek**
+   Pastikan seluruh file seperti `app.py`, folder `model/`, dan file dependency tersedia
+
+2. **Buat dan aktifkan virtual environment (opsional tapi direkomendasikan)**
+
+   ```
+    python -m venv env
+    env\Scripts\activate
+   ```
+
+3. **Install dependencies**
+
+   ```
+    pip install -r requirements.txt
+   ```
+
+4. **Jalankan aplikasi Streamlit**
+
+   ```
+    streamlit run app.py
+   ```
+
+5. **Gunakan aplikasi**
+
+   * Masukkan data mahasiswa melalui form input
+   * Klik tombol **Predict**
+   * Sistem akan menampilkan hasil prediksi status mahasiswa
+
+---
+
+### Link Akses Prototype
+
+Prototype dapat diakses melalui link berikut: https://final-project-dicodingexpert-nwgjjtnmp6saxawepadyjn.streamlit.app/
+
 
 ## Conclusion
 Berdasarkan hasil analisis, dapat disimpulkan bahwa faktor yang paling berpengaruh terhadap status mahasiswa (dropout, enrolled, graduate) bukan berasal dari kemampuan akademik awal seperti admission grade, melainkan lebih dipengaruhi oleh performa akademik selama perkuliahan dan kondisi finansial mahasiswa
