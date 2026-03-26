@@ -4,7 +4,6 @@ import joblib
 
 # LOAD MODEL
 model = joblib.load("model/xgb_model.joblib")
-st.write(model.feature_names_in_)
 
 # PAGE
 st.set_page_config(page_title="Student Prediction", layout="wide")
